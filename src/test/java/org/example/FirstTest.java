@@ -20,4 +20,11 @@ public class FirstTest {
         driver.close();
     }
 
+    @Test
+    public void testFalse(){
+        Assertions.fail();
+    }
+
+
+
 }
